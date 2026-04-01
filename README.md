@@ -191,3 +191,8 @@ Query 10: Find which menu items generate above average revenue
 This query identifies which menu items generate more revenue than the average item on the menu. Like the store‑level version, it calculates each item’s total revenue and compares it to the overall average, returning only the strongest performers. This helps managers quickly see which products drive the most sales, guiding decisions about promotion, pricing, and menu placement to maximize revenue.
 
 
+## Assumption
+LoyaltyID is stored redundantly to preserve the customer’s loyalty tier at the time of the order/payment, since loyalty status can change over time.
+
+
+
