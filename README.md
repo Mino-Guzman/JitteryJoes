@@ -84,3 +84,6 @@ Suppliers
 
 ![Suppliers](Suppliers.Data.png)
 
+
+## Queries
+
