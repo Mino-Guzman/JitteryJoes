@@ -27,35 +27,46 @@ Overall, the data model, as shown below, successfully captures the relationships
 Employees
 ![Employees](employees.data.png)
 
+
 Equipment
 ![Equipment](equipment.data.png)
+
 
 Inventory
 ![Inventory](inventory.data.png)
 
+
 Loyalty
 ![Loyalty](Loyalty.data.png)
+
 
 MenuItem
 ![Menu Items](menuItem.data.png)
 
+
 Merchandise
 ![Merchandise](Merchandise.data.png)
+
 
 OrderItem
 ![Order Items](OrderItem.data.png)
 
+
 Orders
 ![Orders](Orders.data.png)
+
 
 Payment
 ![Payment](Payment.data.png)
 
+
 Store
 ![Store](Store.data.png)
 
+
 SupplierItem
 ![Supplier Items](supplierItem.data.png)
+
 
 Suppliers
 ![Suppliers](Suppliers.Data.png)
