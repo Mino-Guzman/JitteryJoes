@@ -24,4 +24,28 @@ Overall, the data model, as shown below, successfully captures the relationships
  Customers
 ![Customers Data](customers.data.png)
 
+Employees
+
+Equipment
+
+Inventory
+
+Loyalty
+
+MenuItem
+
+Merchandise
+
+OrderItem
+
+Orders
+
+Payment
+
+Store
+
+SupplierItem
+
+Suppliers
+
 
