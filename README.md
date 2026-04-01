@@ -87,3 +87,6 @@ Suppliers
 
 ## Queries
 
+![Table](table.png)
+
+
