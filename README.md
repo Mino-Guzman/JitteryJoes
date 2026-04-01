@@ -19,3 +19,5 @@ Overall, the data model, as shown below, successfully captures the relationships
 
 
 ## Data Dictionary 
+# Customers
+
