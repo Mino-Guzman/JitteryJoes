@@ -90,3 +90,104 @@ Suppliers
 ![Table](table.png)
 
 
+
+Query 1: List all Cafe Managers that are seasonal
+
+
+![Query 1](query1.png)
+
+
+This query allows leadership to quickly identify which café managers are employed on a seasonal basis. Seasonal managers typically work only during peak periods, such as the academic year or high‑traffic months. Knowing exactly who these managers are helps the organization anticipate staffing gaps when the season ends. This ensures that stores relying on seasonal leadership receive the necessary support, training, or replacement coverage ahead of time. By isolating seasonal managers, the café can better plan for continuity, maintain service quality, and allocate resources to locations that may need additional managerial oversight once seasonal staff depart.
+
+
+Query 2: Show all items on the menu that have never been ordered
+
+
+![Query 2](query2.png)
+
+
+This query helps managers identify which menu items have never been purchased. Items with zero orders may signal low visibility, poor appeal, or unnecessary complexity on the menu. By isolating these products, managers can decide whether to promote them, adjust pricing, or remove them to reduce waste and streamline inventory.
+
+
+
+Query 3: Show all orders and status
+
+
+![Query 3](query3.png)
+
+
+Show all supplier orders and their status. This query pulls information from the SupplierItem and Suppliers tables to show what items have been shipped, when they were shipped, and the status of the supplier. It provides visibility into the supply chain and helps track incoming inventory.
+
+
+
+Query 4: Show revenue by payment type
+
+
+![Query 4](query4.png)
+
+
+This query shows how much revenue comes from each card type, helping managers understand which cards customers use most. This makes it easier to plan for reliable payment processing, manage card‑related fees, and ensure the café’s systems support the most common payment methods efficiently.
+
+
+
+Query 5: Find the average order value by store
+
+
+![Query 5](query5.png)
+
+
+Find average order value by store.This query calculates the average order value for each store and pairs it with key performance metrics such as total orders received and total revenue generated. By comparing stores based on their average order value, managers can quickly identify which locations are driving higher‑value transactions. Sorting the results in descending order makes it easier to prioritize high‑performing stores and recognize those that may need additional support, pricing adjustments, or promotional strategies to improve their average order size.
+
+
+
+
+Query 6: Find the most popular menu items by total quantity sold
+
+
+![Query 6](query6.png)
+
+
+Find the most popular menu items by total quantity sold. We ranked the popularity of each item based on the item’s total quantity sold. The query ranked each menu item by the number of units sold across all orders, while also calculating the total revenue generated from each item. The information provided became a useful way to identify bestsellers and top revenue-driving items.
+
+
+
+Query 7: Show stores with above average revenue
+
+
+![Query 7](query7.png)
+
+
+This query identifies which stores generate more revenue than the overall average across all locations. By first calculating each store’s total revenue and then using a subquery to determine the average of those totals, managers can clearly see which stores are outperforming expectations. Highlighting above‑average stores helps leadership recognize strong performers, allocate resources effectively, and understand which operational practices may be contributing to higher revenue.
+
+
+
+Query 8: Show stores with low inventory that need to reorder
+
+![Query 8](query8.png)
+
+
+This query identifies any item at a store whose current quantity has dropped below its designated reorder level. It also calculates how many additional units are needed to reach that threshold again. By sorting the results from most urgent to least urgent, managers can quickly see which stores and items require immediate restocking. This helps prevent stockouts, supports smoother operations, and ensures that high‑demand products remain available to customers.
+
+
+
+Query 9: Show the customer who spend the most
+
+
+![Query 9](query9.png)
+
+
+
+This query identifies the customer with the highest total spending across all their orders. The subquery calculates each customer’s total amount spent, finds the maximum value, and then matches that amount back to the specific customer’s name and ID. This helps managers quickly recognize top‑spending customers, understand purchasing behavior, and potentially target these high‑value customers for loyalty rewards or personalized promotions.
+
+
+
+Query 10: Find which menu items generate above average revenue
+
+
+![Query 10](query10.png)
+
+
+
+This query identifies which menu items generate more revenue than the average item on the menu. Like the store‑level version, it calculates each item’s total revenue and compares it to the overall average, returning only the strongest performers. This helps managers quickly see which products drive the most sales, guiding decisions about promotion, pricing, and menu placement to maximize revenue.
+
+
